@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# local ladder data (mvp file storage)
+/data
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
