@@ -86,7 +86,8 @@ function TitleCard() {
       </div>
       <div className="relative pt-8">
         <p className="text-[13px] font-light text-white/85 leading-[1.7] max-w-[260px] mb-6 sm:mb-7">
-          Chairman of the Grenada Community Tennis Ladder.
+          Chairman of Mount Cinnamon Resort and the Grenada Community Tennis
+          Ladder.
         </p>
         <a
           href="https://www.instagram.com/barrycolly/"
@@ -144,7 +145,7 @@ function PortraitCard() {
           Collymore
         </div>
         <div className="mt-2 sm:mt-3 text-[11px] sm:text-[12px] text-white/55 font-light">
-          Chairman, Grenada Community Tennis Ladder
+          Chairman, Mount Cinnamon Resort & Grenada Community Tennis Ladder
         </div>
       </div>
     </div>
