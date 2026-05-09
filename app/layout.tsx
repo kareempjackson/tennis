@@ -24,10 +24,33 @@ const outfit = Outfit({
   display: "swap",
 });
 
+const siteTitle = "Grenada Community Tennis Ladder";
+const siteDescription =
+  "Challenge local players, climb the ranks, and prove you own the court. Presented by Mount Cinnamon Resort, Grand Anse Beach, Grenada.";
+const ogImage = {
+  url: "/images/xavier-cee-qx_C6x0wbbc-unsplash.jpg",
+  width: 1200,
+  height: 800,
+  alt: "Grenada Community Tennis Ladder",
+};
+
 export const metadata: Metadata = {
-  title: "Grenada Community Tennis Ladder",
-  description:
-    "Challenge local players, climb the ranks, and prove you own the court. Presented by Mount Cinnamon Resort, Grand Anse Beach, Grenada.",
+  metadataBase: new URL("https://www.grenadatennis.org"),
+  title: siteTitle,
+  description: siteDescription,
+  openGraph: {
+    type: "website",
+    title: siteTitle,
+    description: siteDescription,
+    siteName: siteTitle,
+    images: [ogImage],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
+    images: [ogImage],
+  },
 };
 
 export const viewport: Viewport = {
